@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./NavHeader.css";
 
 function NavHeader() {
   return (
@@ -17,6 +18,9 @@ function NavHeader() {
           </li>
           <li>
             <Link to="/radar">Radar</Link>
+          </li>
+          <li>
+            <Link to="/heatmap">Heat Map</Link>
           </li>
         </ul>
       </nav>
