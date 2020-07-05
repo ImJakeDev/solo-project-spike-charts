@@ -15,6 +15,9 @@ function NavHeader() {
           <li>
             <Link to="/pie">Pie</Link>
           </li>
+          <li>
+            <Link to="/radar">Radar</Link>
+          </li>
         </ul>
       </nav>
     </header>

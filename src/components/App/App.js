@@ -5,6 +5,7 @@ import NavHeader from "../NavHeader/NavHeader";
 import Home from "../Home/Home";
 import CalendarChart from "../CalendarChart/CalendarChart";
 import PieChart from "../PieChart/PieChart";
+import RadarChart from "../RadarChart/RadarChart";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/calendar" component={CalendarChart} />
         <Route path="/pie" component={PieChart} />
+        <Route path="/radar" component={RadarChart} />
       </Switch>
     </div>
   );
