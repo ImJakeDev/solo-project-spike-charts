@@ -6,35 +6,43 @@ function CalendarChart() {
   const [data] = useState([
     {
       day: "2020-07-13",
-      value: "1",
+      value: 1,
+      emotion: "anger",
     },
     {
       day: "2020-01-05",
-      value: "2",
+      value: 2,
+      emotion: "fear",
     },
     {
       day: "2020-06-05",
-      value: "3",
+      value: 3,
+      emotion: "sadness",
     },
     {
       day: "2020-04-21",
-      value: "4",
+      value: 4,
+      emotion: "disgust",
     },
     {
       day: "2020-06-28",
-      value: "5",
+      value: 5,
+      emotion: "surprise",
     },
     {
       day: "2020-07-11",
-      value: "6",
+      value: 6,
+      emotion: "anticipation",
     },
     {
       day: "2020-07-15",
-      value: "7",
+      value: 7,
+      emotion: "trust",
     },
     {
       day: "2020-10-31",
-      value: "8",
+      value: 8,
+      emotion: "joy",
     },
   ]);
 
@@ -69,7 +77,7 @@ function CalendarChart() {
               anchor: "bottom-right",
               direction: "row",
               translateY: 36,
-              itemCount: 4,
+              itemCount: 6,
               itemWidth: 42,
               itemHeight: 36,
               itemsSpacing: 14,

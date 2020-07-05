@@ -12,6 +12,9 @@ function NavHeader() {
           <li>
             <Link to="/calendar">Calendar</Link>
           </li>
+          <li>
+            <Link to="/pie">Pie</Link>
+          </li>
         </ul>
       </nav>
     </header>
